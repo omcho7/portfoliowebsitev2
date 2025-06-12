@@ -1,0 +1,33 @@
+.home {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroText {
+    max-width: 800px;
+    padding: 2rem;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    
+}
+
+.hero h3 {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #666;
+}
+
+.heroButtons {
+    display: flex;
+    justify-content: left;    
+    margin-left: 2rem;
+}

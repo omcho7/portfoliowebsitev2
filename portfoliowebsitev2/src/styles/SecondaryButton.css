@@ -1,0 +1,45 @@
+.secondary-button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: transparent;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.secondary-button:hover {
+    border: 1px solid #1655df;
+    color: #1655df;
+}
+
+.button-icon {
+    display: flex;
+    align-items: center;
+}
+
+/* Sizes */
+.secondary-button.small {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+}
+
+.secondary-button.medium {
+    padding: 12px 24px;
+    font-size: 1rem;
+}
+
+.secondary-button.large {
+    padding: 16px 32px;
+    font-size: 1.125rem;
+}
+
+/* Disabled state */
+.secondary-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
